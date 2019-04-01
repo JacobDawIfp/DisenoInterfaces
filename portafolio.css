@@ -1,0 +1,54 @@
+
+
+body{
+/*background-image: url('AguaAzul.jpg'),;*/
+background: linear-gradient(110deg, #f93666, #6d47d9);
+}
+
+
+
+h3{
+  margin: 0 0 5px 0;
+  font-family: 'Baloo Chettan', cursive;
+  font-size:5em;
+}
+#cuerpo{
+  font-family: 'Anton', sans-serif;
+  font-size: 1.5em;
+}
+
+li{
+  font-family: 'Mrs Sheppards', cursive;
+  font-size: 1.2em;
+}
+
+/* Each item in our grid will contain numbers */
+.item {
+  /* We center the contents of these items. You can also do this with flexbox too! */
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 35px;
+}
+
+
+.item p {
+  margin: 0 0 10px 0;
+}   
+/*FIN ESTILOS*/
+
+.container {
+  display: grid;
+  /*A continuación especificamos el ancho de los elementos de las columnas.
+  Cuando ponemos esta propiedad se crean 3 columnas, sin ella, sólo aparece una columna.
+  */
+  grid-template-columns: 200px 200px 200px 200px 200px;
+  /*Con gap especificamos el espacio entre elementos*/
+  grid-gap: 50px;
+  /*Ahora las filas. Observa que hemos especificado 2, las demás obtienen un tamaño predefinido*/
+  grid-template-rows: 200px;
+  /*Observar en Firefox Dev. las líneas de celdas implícitas y explícitas.*/
+  /*Para especificar el tamaño de las implícitas usamos la siguiente propiedad*/
+  grid-auto-rows: 100px;
+}
