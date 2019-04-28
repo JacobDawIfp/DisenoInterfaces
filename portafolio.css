@@ -14,11 +14,16 @@ background: linear-gradient(110deg, #f93666, #6d47d9);
  font-weight: 600;
  font-size: 20px;
  color: #ffffff;
- background-color: #1883ba;
+ background-color: #2114A6;
  border-radius: 6px;
- border: 2px solid #0016b0;
+ border: 2px solid #3A59AB;
 }
 
+.escuchar:hover{
+  color: #1883ba;
+  background-color: #ffffff;
+}
+</style>
 
 
 h3{
