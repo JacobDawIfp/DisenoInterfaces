@@ -7,6 +7,20 @@ background: linear-gradient(110deg, #f93666, #6d47d9);
 
 
 
+
+.escuchar{
+ text-decoration: none;
+ padding: 10px;
+ font-weight: 600;
+ font-size: 20px;
+ color: #ffffff;
+ background-color: #1883ba;
+ border-radius: 6px;
+ border: 2px solid #0016b0;
+}
+
+
+
 h3{
   margin: 0 0 5px 0;
   font-family: 'Baloo Chettan', cursive;
