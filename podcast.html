@@ -27,13 +27,10 @@
         <div class="info">
             <div class="cont">
                 <button id="prev" class="nav">
-                    <img src="http://abarcarodriguez.com/lab/prev.png" />
                 </button>
                 <button id="play" class="nav">
-                    <img class="pad" src="http://abarcarodriguez.com/lab/play.png" />
                 </button>
                 <button id="next" class="nav">
-                    <img src="http://abarcarodriguez.com/lab/next.png" />
                 </button>
             </div>
         </div>
@@ -98,12 +95,10 @@ play.onclick = function () {
     playing ? audio.pause() : audio.play();
 }
 audio.addEventListener("pause", function () {
- 
     playing = false;
 }, false);
 
 audio.addEventListener("playing", function () {
-    play.innerHTML = '<img src="http://abarcarodriguez.com/lab/pause.png" />';
     playing = true;
 }, false);
 next.addEventListener("click", nextTrack, false);
@@ -156,11 +151,6 @@ function updateInfo() {
         audio.play();
     }
 }
-
-
 </script>
-
-
-
 </body>
 </html>
