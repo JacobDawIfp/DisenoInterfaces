@@ -6,6 +6,13 @@ body {
     background: linear-gradient(110deg, #f93666, #6d47d9);
 }
 
+h3{
+  margin: 0 0 5px 0;
+  font-family: 'Baloo Chettan', cursive;
+  font-size:5em;
+  text-align: center;
+}
+
 #player {
     width: 400px;
     height: 400px;
