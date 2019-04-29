@@ -7,7 +7,7 @@ body {
 }
 
 h3{
-  margin: 0 0 5px 0;
+  margin: 5 0 5px 0;
   font-family: 'Baloo Chettan', cursive;
   font-size:5em;
   text-align:center;
@@ -16,6 +16,14 @@ h3{
 #cuerpo{
   font-family: 'Permanent Marker', cursive;
   font-size: 1.5em;
+}
+#ejemplo{
+ padding: 10px; 
+ margin: 10px;
+ border: 2px solid black;
+ float: left;
+ width: 250px;
+
 }
 
 #player {
