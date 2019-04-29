@@ -13,6 +13,11 @@ h3{
   text-align:center;
 }
 
+#cuerpo{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.5em;
+}
+
 #player {
     width: 400px;
     height: 400px;
